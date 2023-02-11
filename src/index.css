@@ -1,0 +1,18 @@
+:root {
+  --primary: hsl(215, 51%, 70%);
+  --secondary: hsl(178, 100%, 50%);
+
+  --neutral-100: hsl(217, 54%, 11%);
+  --neutral-300: hsl(216, 50%, 16%);
+  --neutral-600: hsl(215, 32%, 27%);
+  --neutral-900: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
