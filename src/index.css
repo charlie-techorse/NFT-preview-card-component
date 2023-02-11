@@ -20,6 +20,13 @@ body {
   background-color: var(--neutral-300);
 }
 
+main#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 p {
   font-size: 18px;
 }
