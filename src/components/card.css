@@ -10,3 +10,8 @@
 .card__image {
   width: 100%;
 }
+
+.card__title {
+  color: var(--neutral-900);
+  font-size: 24px;
+}

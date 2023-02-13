@@ -2,9 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Card } from './components/Card'
 import './index.css'
+import { ItemType } from './types/itemType'
+
+const item: ItemType = {
+  title: 'Equilibrium',
+  id: 3429
+}
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <Card />
+    <Card item={item} />
   </React.StrictMode>,
 )
