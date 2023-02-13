@@ -1,6 +1,6 @@
 .card {
   background-color: var(--neutral-300);
-  width: 325px;
+  width: 250px;
   margin-inline: 20px;
   padding: 30px;
   border-radius: 20px;
@@ -15,10 +15,11 @@
 
 .card__title {
   color: var(--neutral-900);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .card__description {
+  font-size: 14px;
   color: var(--primary);
   font-weight: 300;
   line-height: 1.8rem;
@@ -33,11 +34,19 @@
 .card__info-eth {
   display: flex;
   color: var(--secondary);
+  flex-grow: 1;
+}
+
+.card__info-eth p,
+.card__info-days p {
+  font-size: 16px;
 }
 
 .card__info-days {
   display: flex;
   color: var(--primary);
+  flex-grow: 1;
+  justify-content: end;
 }
 
 .card__info-eth img,
@@ -55,7 +64,7 @@
 }
 
 .card__user-img {
-  width: 45px;
+  width: 35px;
   border-radius: 50%;
   border: 1px solid var(--neutral-900);
   margin-right: 20px;
@@ -64,6 +73,7 @@
 .card__user-name {
   color: var(--neutral-900);
   font-weight: 300;
+  font-size: 12px;
 }
 
 .card__user-creation {
