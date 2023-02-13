@@ -15,3 +15,8 @@
   color: var(--neutral-900);
   font-size: 24px;
 }
+
+.card__description {
+  color: var(--primary);
+  font-weight: 300;
+}
