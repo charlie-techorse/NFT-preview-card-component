@@ -1,7 +1,6 @@
 .card {
   background-color: var(--neutral-300);
   width: 350px;
-  height: 450px;
   margin-inline: 20px;
   padding: 30px;
   border-radius: 20px;
@@ -51,8 +50,21 @@
 
 .card__user {
   display: flex;
+  align-items: center;
 }
 
 .card__user-img {
-  width: 40px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid var(--neutral-900);
+  margin-right: 20px;
+}
+
+.card__user-name {
+  color: var(--neutral-900);
+  font-weight: 300;
+}
+
+.card__user-creation {
+  color: var(--primary);
 }

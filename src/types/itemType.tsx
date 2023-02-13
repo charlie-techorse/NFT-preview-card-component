@@ -3,5 +3,6 @@ export interface ItemType {
   id: number,
   description: string,
   prize: number,
-  days: number
+  days: number,
+  image: string
 }

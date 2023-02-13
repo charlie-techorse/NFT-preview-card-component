@@ -22,5 +22,12 @@ export function Card({ item }: ItemProps) {
       </div>
     </div>
     <hr className='card__stripe'></hr>
+    <div className='card__user'>
+      <img className='card__user-img' src={item.image} alt='user'></img>
+      <p className='card__user-name'>
+        <span className='card__user-creation'>Creation of </span>
+        Jules Wyvern
+      </p>
+    </div>
   </div>
 }

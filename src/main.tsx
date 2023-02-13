@@ -9,7 +9,8 @@ const item: ItemType = {
   id: 3429,
   description: 'Our Equilibrium collection promotes balance and calm.',
   prize: 0.041,
-  days: 3
+  days: 3,
+  image: 'image-avatar.png'
 }
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
