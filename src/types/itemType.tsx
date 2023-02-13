@@ -1,5 +1,7 @@
 export interface ItemType {
   title: string,
   id: number,
-  description: string
+  description: string,
+  prize: number,
+  days: number
 }

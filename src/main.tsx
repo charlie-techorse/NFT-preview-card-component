@@ -7,7 +7,9 @@ import { ItemType } from './types/itemType'
 const item: ItemType = {
   title: 'Equilibrium',
   id: 3429,
-  description: 'Our Equilibrium collection promotes balance and calm.'
+  description: 'Our Equilibrium collection promotes balance and calm.',
+  prize: 0.041,
+  days: 3
 }
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
