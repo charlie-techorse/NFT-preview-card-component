@@ -21,6 +21,7 @@
 .card__description {
   color: var(--primary);
   font-weight: 300;
+  line-height: 1.8rem;
 }
 
 .card__info {
