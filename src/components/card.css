@@ -44,3 +44,15 @@
 .card__info-days img {
   padding-right: 10px;
 }
+
+.card__stripe {
+  border: 1px solid var(--neutral-600);
+}
+
+.card__user {
+  display: flex;
+}
+
+.card__user-img {
+  width: 40px;
+}

@@ -21,5 +21,6 @@ export function Card({ item }: ItemProps) {
         <p>{item.days} days left</p>
       </div>
     </div>
+    <hr className='card__stripe'></hr>
   </div>
 }
